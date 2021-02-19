@@ -6,7 +6,7 @@ public class Agent {
     private Star star;
     private Fans fans;
     private Company company;
-    
+
 
     public void setStar(Star star) {
         this.star = star;
