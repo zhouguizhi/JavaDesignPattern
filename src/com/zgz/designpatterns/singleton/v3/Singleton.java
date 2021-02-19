@@ -1,6 +1,6 @@
 package com.zgz.designpatterns.singleton.v3;
 /**
- * 懒汉式:实现单例
+ * 懒汉式:实现单例 这个会有线程安全问题,如果使用同步方法实现线程安全的话,会有一定的性能问题
  */
 public class Singleton {
     private Singleton(){}
