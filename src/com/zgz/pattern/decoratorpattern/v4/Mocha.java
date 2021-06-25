@@ -6,7 +6,7 @@ public class Mocha extends Condiment {
     }
     @Override
     public double cost() {
-        //饮料的价格+摩卡的价格
+        //饮料的价格+牛奶的价格
         return beverage.cost()+0.7;
     }
     @Override
