@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * v2版本比v1版本好处是封装了变化的部分,其实还可以使用代理模式,或者AOP
+ * 做Android中BaseActivity经常用到了就是这个模版方法模式
  */
 public class Client extends Template{
     public static void main(String[] args) {
