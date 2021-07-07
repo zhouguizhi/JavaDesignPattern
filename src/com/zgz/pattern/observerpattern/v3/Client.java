@@ -1,8 +1,10 @@
-package com.zgz.pattern.observerpattern.v2;
+package com.zgz.pattern.observerpattern.v3;
+
 /**
- * 使用观察者模式解决v1版本的问题
- * 但是这也会有个问题,比如游戏是经常需要变化的,比如装备 造血能力啊,这就要去Role类中添加属性了,那么update就需要变化了,现在要求就是
- * 如果在Role类中添加属性,update方法不需要改动,看v3版本
+ * v3版本解决v2版本遗留的问题
+ * 解决办法就是在update()方法中把Role对象传递进去,以后要获取什么角色属性直接通过Role对象去拿就行
+ * 这样做的缺点:
+ * 如果在update()方法中传递了Role对象的话,那么这个观察者就只能观察一种了,如果有其他要观察的对象就不能观察了,
  */
 public class Client {
     public static void main(String[] args) {
