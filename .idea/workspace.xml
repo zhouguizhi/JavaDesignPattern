@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ef0cd5c-4b0b-4224-be2f-498bd89e6abb" name="Default Changelist" comment="添加装饰器模式笔记">
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/GBTwoPlug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/NoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/ThreePlugIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/BankPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/PayLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/ShopCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/WXPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/ZhiFuBaoPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/笔记" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/代码分层架构图.png" afterDir="false" />
+    <list default="true" id="5ef0cd5c-4b0b-4224-be2f-498bd89e6abb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/ConcreteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/DeptManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/ProjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/笔记" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaDesignPattern/note" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDesignPattern/note" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/note" beforeDir="false" afterPath="$PROJECT_DIR$/src/note" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,105 +24,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v2/RubberDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v4/Espresso.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/笔记">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/PayLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Payment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/ZhiFuBaoPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/WXPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/BankPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/ShopCart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="66">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/YinLianPay.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/笔记">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/ProjectManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/DeptManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/GeneralManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/ConcreteHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -148,17 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v5/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v5/OkHttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v5/RequestManager.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v5/RequestUrl.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v5/VolleyRequest.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/templatepattern/v1/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v6/ThirdPlatform.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v6/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/proxypattern/v6/ProxySaleTicket.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/prototypepattern/v1/Report.java" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/prototypepattern/v1/Client.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/prototypepattern/v2/Report.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/prototypepattern/v2/Client.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/prototypepattern/v3/Client.java" />
@@ -190,15 +173,26 @@
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/ThreePlugIf.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/GBTwoPlug.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/NoteBook.java" />
-        <option value="$PROJECT_DIR$/src/note" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/笔记" />
-        <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/PayLogic.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/ShopCart.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Payment.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/WXPay.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/ZhiFuBaoPay.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/BankPay.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/YinLianPay.java" />
         <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/PayLogic.java" />
+        <option value="$PROJECT_DIR$/src/note" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/templatepattern/v2/笔记" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/ConcreteHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Handler.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/ProjectManager.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/DeptManager.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/GeneralManager.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/笔记" />
       </list>
     </option>
   </component>
@@ -244,7 +238,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zgz" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
+              <item name="chainofresponsibilitypattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -252,7 +246,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zgz" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
+              <item name="chainofresponsibilitypattern" type="462c0819:PsiDirectoryNode" />
               <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,26 +255,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zgz" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
+              <item name="chainofresponsibilitypattern" type="462c0819:PsiDirectoryNode" />
               <item name="v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zgz" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
-              <item name="v3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zgz" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategypattern" type="462c0819:PsiDirectoryNode" />
-              <item name="v4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,7 +268,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640680774292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1640697515516" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -323,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (6)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zgz.pattern.observerpattern.v2.Client" />
       <module name="JavaDesignPattern" />
@@ -350,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zgz.pattern.prototypepattern.v2.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zgz.pattern.chainofresponsibilitypattern.v1.Client" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zgz.pattern.prototypepattern.v2.*" />
+          <option name="PATTERN" value="com.zgz.pattern.chainofresponsibilitypattern.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,12 +339,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zgz.pattern.observerpattern.v1.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zgz.pattern.chainofresponsibilitypattern.v2.Client" />
       <module name="JavaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zgz.pattern.observerpattern.v1.*" />
+          <option name="PATTERN" value="com.zgz.pattern.chainofresponsibilitypattern.v2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (6)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (5)" />
-        <item itemvalue="Application.Client (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +392,7 @@
       <workItem from="1631066631218" duration="648000" />
       <workItem from="1631589694548" duration="1184000" />
       <workItem from="1632413215224" duration="2717000" />
-      <workItem from="1640679359949" duration="1347000" />
+      <workItem from="1640679359949" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="添加设计模式的分类">
       <created>1624429208802</created>
@@ -551,16 +527,38 @@
       <option name="project" value="LOCAL" />
       <updated>1625646527093</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="添加策略模式 例子">
+      <created>1640681002910</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1640681002910</updated>
+    </task>
+    <task id="LOCAL-00021" summary="添加模版方法模式的笔记">
+      <created>1640682676061</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1640682676061</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加模版方法模式的笔记">
+      <created>1640682901973</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1640682901973</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63988000" />
+    <option name="totallyTimeSpent" value="69537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16237482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,7 +567,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06853147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1972028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43076923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -619,7 +617,9 @@
     <MESSAGE value="添加观察者模式笔记" />
     <MESSAGE value="删除无用的类" />
     <MESSAGE value="观察者模式演进" />
-    <option name="LAST_COMMIT_MESSAGE" value="观察者模式演进" />
+    <MESSAGE value="添加策略模式 例子" />
+    <MESSAGE value="添加模版方法模式的笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加模版方法模式的笔记" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,292 +658,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v1/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/HeadPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/BallPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v2/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/Monster.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/BallPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/HeadPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/Monster.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/BallPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v4/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/HeadPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/ThreePlugIf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/GBTwoPlug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/NoteBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v2/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v2/Foo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v2/FooAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v1/Foo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/observerpattern/v3/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/设计模式七大原则.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/代码分层架构图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v1/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v1/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1000,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/PayLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1056,10 +763,301 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/YinLianPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/strategypattern/v4/PayLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="127" column="73" selection-start-line="127" selection-start-column="73" selection-end-line="127" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/templatepattern/v1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/templatepattern/v2/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/templatepattern/v2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/templatepattern/v2/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="61" selection-start-column="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v2/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v2/FooAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/GBTwoPlug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/NoteBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/adapterpattern/v3/ThreePlugIf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v2/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v1/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v1/DarkRoast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v1/Decaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v1/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v1/HouseBlend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v2/Decaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v3/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v3/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v4/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/decoratorpattern/v4/Espresso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/ConcreteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/GeneralManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/ProjectManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/DeptManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/v2/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zgz/pattern/chainofresponsibilitypattern/笔记">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>
